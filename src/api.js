@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const API = axios.create({
-  baseURL: "http://localhost:3000", // relative path
+  baseURL: "https://merntodobackend-qxpc.onrender.com", // relative path
   withCredentials: true, // Allows session cookies
 });
 
